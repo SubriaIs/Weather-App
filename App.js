@@ -12,9 +12,9 @@ const App = () => {
   return (
     <NavigationContainer>
       <Drawer.Navigator useLegacyImplementation>
-      <Drawer.Screen name="CurrentWeatherScreen" component={CurrentWeatherScreen} />
-      <Drawer.Screen name="WeatherForecastScreen" component={WeatherForecastScreen} />
-            <Drawer.Screen name="CurrentLocation" component={CurrentLocation} />
+      <Drawer.Screen name="Current Weather Screen" component={CurrentWeatherScreen} />
+      <Drawer.Screen name="Weather Forecast Screen" component={WeatherForecastScreen} />
+            <Drawer.Screen name="Current Location" component={CurrentLocation} />
     </Drawer.Navigator>
     </NavigationContainer>
   );
